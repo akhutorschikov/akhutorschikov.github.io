@@ -143,6 +143,25 @@ main > div {
     margin-left: auto;
 }
 
+a.fbbutton {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700 !important;
+    color: white !important;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    background-color: color(display-p3 0.1725 0.3922 0.9647);
+    margin: 20px 0px;
+}
+
+a.fbbutton:hover {
+    background-color: color(display-p3 0.3059 0.5 1);
+    color: white !important;
+}
+
 #button > button {
     cursor: pointer;
     font-size: 22px;
