@@ -55,4 +55,4 @@ TERMS, PRIVACY, AND CONTACTS
 - Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 - Privacy Policy: https://www.picoala.com/privacy
 
-You are welcome to contact us at contact@picoala.com
+You are welcome to contact us at https://www.picoala.com/contact
