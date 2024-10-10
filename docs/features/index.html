@@ -2,26 +2,40 @@
 <html>
 <head>
 <title>App Features</title>
-<link rel="icon" href="../images/favicon.png" type="image/png">
+<base href="../">
+<link rel="icon" href="./images/favicon.png" type="image/png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="keywords" content="print multiple photos on one page, iOS printer, iPhone printer, AirPrint, photo layout, pdf, collage, print">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@400;600;700&family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/default.css">
-<link rel="stylesheet" href="../css/text.css">
-<link rel="stylesheet" href="../css/topbar.css">
-<link rel="stylesheet" href="../css/navbar.css">
-<link rel="stylesheet" href="../css/footer.css">
-<link rel="stylesheet" href="../css/content01.css">
-<link rel="stylesheet" href="../css/inline-image.css">
+<link rel="stylesheet" href="./css/default.css">
+<link rel="stylesheet" href="./css/text.css">
+<link rel="stylesheet" href="./css/topbar.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/content01.css">
+<link rel="stylesheet" href="./css/inline-image.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-<script src="../script/main.js"></script>
-<script src="../script/ddmenu.js"></script>
+<script src="./script/main.js"></script>
+<script src="./script/ddmenu.js"></script>
 </head>
 <body>
-{% include topbar.html %}
+<nav id="topbar" class="home-sticky">
+    <div>
+        <a href="https://www.picoala.com" alt="Picoala"><img class="icon" src="images/picoala-logo@2x.png" alt="Picoala"/></a>
+        <div id="navbutton"></div>
+        <div id="navmenu">
+            <ul>
+                <li><a href="features" alt="Features">Features</a>
+                <li><a href="guides" alt="Guides">Guides</a>
+                <li><a href="subscription" alt="Subscription">Subscription</a>
+                <li><a href="contact" alt="Contact Us">Contact Us</a>
+            </ul>
+        </div>
+    </div>
+</nav>
 <main class="content">
     <nav id="navbar" class="sticky">
         <div>
@@ -48,7 +62,7 @@
             <ul class="ddmenu">
                 <li><h4>Add photos from Files, Camera, Photo Library</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/add-photos@2x.png" loading="lazy" style="aspect-ratio: 1 / 1;"/>
+                        <img src="./images/features/add-photos@2x.png" loading="lazy" style="aspect-ratio: 1 / 1;"/>
                         <div>
                             <p>Add as many photos to the project as you like. You can repeat this operation multiple times.</p>
                             <ul>
@@ -60,7 +74,7 @@
                 </li>
                 <li><h4>Drag & Drop photos</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/drag-drop@2x.jpg" loading="lazy" style="aspect-ratio: 6 / 8;"/>
+                        <img src="./images/features/drag-drop@2x.jpg" loading="lazy" style="aspect-ratio: 6 / 8;"/>
                         <div>
                             <p>Drag and drop photos from other apps to Picoala, and drag and drop photos between pages.</p>
                             <ul>
@@ -75,7 +89,7 @@
                 </li>
                 <li><h4>Set page size</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/paper-size@2x.png" loading="lazy" style="aspect-ratio: 6 / 8;"/>
+                        <img src="./images/features/paper-size@2x.png" loading="lazy" style="aspect-ratio: 6 / 8;"/>
                         <div>
                             <p>Select a paper size from the list to set it as the page size for all pages in the project. You can change the page size at any time. Only one page size can be active for a single project at any time. To add a new paper size, use the text fields at the bottom of the popup window.</p>
                             <aside>
@@ -86,7 +100,7 @@
                 </li>
                 <li><h4>Choose page layout</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/layout2@2x.jpg" loading="lazy" style="aspect-ratio: 6 / 8;"/>
+                        <img src="./images/features/layout2@2x.jpg" loading="lazy" style="aspect-ratio: 6 / 8;"/>
                         <div>
                             <p>There are four layout modes in the app to choose from: Normal, Auto, Grid, and Collage. Each mode offers both standard and unique tools and edits to achieve different results. You can select individual layout for each page or use one layout mode for all pages in the project.</p>
                             <ul>
@@ -101,7 +115,7 @@
                 </li>
                 <li id="pagemargins"><h4>Specify page orientation, margins and spacing</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/paper-margins@2x.png" loading="lazy" style="aspect-ratio: 780 / 1688;"/>
+                        <img src="./images/features/paper-margins@2x.png" loading="lazy" style="aspect-ratio: 780 / 1688;"/>
                         <div>
                             <p>Specify Landscape or Portrait orientation, margins, and spacing for any single page. Enable "Apply to All" to apply these settings to all non-locked pages. Ensure your printer supports the chosen margins for the selected paper size.</p>
                             <ul>
@@ -113,7 +127,7 @@
                 </li>
                 <li id="pagemargins"><h4>Specify page background</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/background@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
+                        <img src="./images/features/background@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
                         <div>
                             <p>Customize page with background color and background images:</p>
                             <ul>
@@ -126,7 +140,7 @@
                 </li>
                 <li id="photosize"><h4>Set photo size and position</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/photo-size-edit2@2x.png" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
+                        <img src="./images/features/photo-size-edit2@2x.png" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
                         <div>
                             <p>Specify the size and position for selected photos, as well as the size for all photos on a page or all photos in the project.</p>
                             <ul>
@@ -145,7 +159,7 @@
                 </li>
                 <li><h4>Set resolution DPI or DPCM</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/resolution@2x.png" loading="lazy" style="aspect-ratio: 6 / 7;"/>
+                        <img src="./images/features/resolution@2x.png" loading="lazy" style="aspect-ratio: 6 / 7;"/>
                         <div>
                             <p>Resolution defines the density of pixels per unit of measurement. You can choose between DPI (dots per inch) and DPCM (dots per centimeter) resolution units.</p>
                             <ul>
@@ -160,7 +174,7 @@
                 </li>
                 <li><h4>Add border to photos</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/photo-border@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
+                        <img src="./images/features/photo-border@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
                         <div>
                             <p>Apply border to selected photos, all photos on a page, or all photos in the project. </p>
                             <ul>
@@ -174,7 +188,7 @@
                 </li>
                 <li><h4>De-squeeze photos</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/photo-desqueeze@2x.png" loading="lazy" style="aspect-ratio: 6 / 7;"/>
+                        <img src="./images/features/photo-desqueeze@2x.png" loading="lazy" style="aspect-ratio: 6 / 7;"/>
                         <div>
                             <p>For anamorphic photos and other photos that require one-sided correction, the de-squeeze feature provides factors to restore the original aspect ratio and achieve more natural look.</p>
                             <ul>
@@ -187,7 +201,7 @@
                 </li>
                 <li id="editpage"><h4>Edit content in Normal and Auto layout modes</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/edit-auto@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1688;"/>
+                        <img src="./images/features/edit-auto@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1688;"/>
                         <div>
                             <p>Edit page content manually using the following tools:</p>
                             <ul>
@@ -210,7 +224,7 @@
                 </li>
                 <li><h4>Select collage template</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/collage-type@2x.png" loading="lazy" style="aspect-ratio: 6 / 8;"/>
+                        <img src="./images/features/collage-type@2x.png" loading="lazy" style="aspect-ratio: 6 / 8;"/>
                         <div>
                             <p>The app allows you to use Collage layout mode to create beautiful compositions from your photos. When this mode is active, the app's editing interface receives some minor updates.</p>
                             <ul>
@@ -222,7 +236,7 @@
                 </li>
                 <li id="editcollage"><h4>Edit content in Collage layout mode</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/edit-collage@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1688;"/>
+                        <img src="./images/features/edit-collage@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1688;"/>
                         <div>
                             <p>Edit page content manually using the following tools:</p>
                             <ul>
@@ -245,7 +259,7 @@
                 </li>
                 <li><h4>Lock/unlock any single page</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/lock-page@2x.png" loading="lazy" style="aspect-ratio: 1 / 1;"/>
+                        <img src="./images/features/lock-page@2x.png" loading="lazy" style="aspect-ratio: 1 / 1;"/>
                         <div>
                             <p>To prevent any page from being updated, use the page "Lock" feature. You will see multiple indications throughout the app showing that the page is locked.</p>
                             <ul>
@@ -257,7 +271,7 @@
                 </li>
                 <li><h4>Customize editing environment</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/page-config@2x.png" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
+                        <img src="./images/features/page-config@2x.png" loading="lazy" style="aspect-ratio: 780 / 1110;"/>
                         <div>
                             <p>Configure your editing environment using the following options:</p>
                             <ul>
@@ -271,7 +285,7 @@
                 </li>
                 <li><h4>Manage multiple projects</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/projects@2x.png" loading="lazy" style="aspect-ratio: 1 / 1;"/>
+                        <img src="./images/features/projects@2x.png" loading="lazy" style="aspect-ratio: 1 / 1;"/>
                         <div>
                             <p>Create, duplicate, and open previously saved projects. Access Project Settings to view details, update title and poster image, and configure specific project behavior.</p>
                         </div>
@@ -279,7 +293,7 @@
                 </li>
                 <li><h4>Choose units of measurement</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/units@2x.png" loading="lazy" style="aspect-ratio: 6 / 7;"/>
+                        <img src="./images/features/units@2x.png" loading="lazy" style="aspect-ratio: 6 / 7;"/>
                         <div>
                             <p>Select from Inches, Centimeters, and Pixels as the main units of measurement. When Pixels is selected, the project resolution value is used to calculate the conversion factor.</p>
                             <aside>
@@ -290,7 +304,7 @@
                 </li>
                 <li><h4>Undo/Redo project changes</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/undo-redo@2x.jpg" loading="lazy" style="aspect-ratio: 1 / 1;"/>
+                        <img src="./images/features/undo-redo@2x.jpg" loading="lazy" style="aspect-ratio: 1 / 1;"/>
                         <div>
                             <p>Use the arrows on the top bar to Undo/Redo an unlimited number of project editing steps.</p>
                             <aside>
@@ -301,7 +315,7 @@
                 </li>
                 <li><h4>Print your project</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/print@2x.png" loading="lazy" style="aspect-ratio: 780 / 1176;"/>
+                        <img src="./images/features/print@2x.png" loading="lazy" style="aspect-ratio: 780 / 1176;"/>
                         <div>
                             <p>Use iOS printing menu to additionally configre printer parameters, such as printing paper size, quality, color mode, etc.</p>
                             <aside>
@@ -312,7 +326,7 @@
                 </li>
                 <li><h4>Share as PDF or images</h4>
                     <div class="ddcontent">
-                        <img src="../images/features/share@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1176;"/>
+                        <img src="./images/features/share@2x.jpg" loading="lazy" style="aspect-ratio: 780 / 1176;"/>
                         <div>
                             <p>Share your work as a PDF document or a group of images.</p>
                             <ul>
@@ -424,6 +438,59 @@
         </section>
     </div>
 </main>
-{% include footer.html %}
+<footer id="footer">
+    <div class="container">
+        <section id="botmenu">
+            <ul>
+                <li><h4>Features</h4><ul>
+                    <li><a href="features/#autolayout" alt="Auto Layout">Auto Layout</a></li>
+                    <li><a href="features/#photosize" alt="Photo Size">Photo Size</a></li>
+                    <li><a href="features/#pagemargins" alt="Page Margins">Page Margins</a></li>
+                    <li><a href="features/#editpage" alt="age Editing">Page Editing</a></li>
+                    <li><a href="features/#editcollage" alt="Collage Editing">Collage Editing</a></li>
+                    <li><a href="features/" alt="All Features">All Features</a></li>
+                    <li><a href="features/#soon" alt="Upcoming Features">Upcoming Features</a></li>
+                </ul></li>
+                <li><h4>Guides</h4><ul>
+                    <li><a href="guides/" alt="Get Started">Get Started</a></li>
+                    <li><a href="guides/#basics" alt="Learn Basics">Learn Basics</a></li>
+                    <li><a href="guides/#editpage" alt="Edit page content">Edit page content</a></li>
+                    <li><a href="guides/#addborder" alt="Add border to photos">Add border to photos</a></li>
+                    <li><a href="guides/#editphoto" alt="Edit photos">Edit photos</a></li>
+                    <li><a href="guides/#collage" alt="Learn Basics">Create collages</a></li>
+                    <li><a href="guides/#export" alt="Print and Share">Print and Share</a></li>
+                </ul></li>
+                <li><h4>Subscription</h4><ul>
+                    <li><a href="subscription/" alt="About Subscription">About Subscription</a></li>
+                    <li><a href="subscription/#why" alt="Why Subscription?">Why Subscription?</a></li>
+                    <li><a href="subscription/#plans" alt="Subscription Plans">Subscription Plans</a></li>
+                    <li><a href="subscription/#include" alt="What is Included?">What is Included?</a></li>
+                    <li><a href="subscription/#cancel" alt="Cancel Subscription">Cancel Subscription</a></li>
+                </ul></li>
+                <li><h4>Contact Us</h4><ul>
+                    <li><a href="contact?select=question" alt="Ask Question">Ask Question</a></li>
+                    <li><a href="contact?select=support" alt="Get Support">Get Support</a></li>
+                    <li><a href="contact?select=feature" alt="Request Feature">Request Feature</a></li>
+                    <li><a href="contact?select=bug" alt="Report Bug">Report Bug</a></li>
+                    <li><a href="contact?select=other" alt="Send Email">Send Email</a></li>
+                </ul></li>
+            </ul>
+        </section>
+        <section id="copyrights">
+            <div>
+                <div class="left">
+                    <a class="download" href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="images/appstore.svg" alt="Download on the App Store"></a>
+                </div>
+                <div class="center">
+                    <p>© 2023 Aliaksei Khutarshchykau. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" alt="Terms of Service">Terms of Service</a> and <a href="privacy" alt="Privacy Policy">Privacy Policy</a>.</p>
+                </div>
+                <div class="right">
+                    <a href="https://twitter.com/picoalapp" alt="Twitter"><img src="images/twitter-icon@2x.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/picoalaprint" alt="Facebook"><img src="images/facebook-icon@2x.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
 </body>
 </html>

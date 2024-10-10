@@ -1,9 +1,0 @@
-title: Picoala Home
-description: Picoala Home
-baseurl: ""
-url: "https://www.picoala.com"
-
-# Optional settings
-theme: minima
-markdown: kramdown
-permalink: pretty

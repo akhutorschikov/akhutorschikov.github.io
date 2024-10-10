@@ -2,26 +2,40 @@
 <html>
 <head>
 <title>Get Started</title>
-<link rel="icon" href="../images/favicon.png" type="image/png">
+<base href="../">
+<link rel="icon" href="./images/favicon.png" type="image/png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="keywords" content="print multiple photos on one page, iOS printer, iPhone printer, AirPrint, photo, layout, pdf, collage, print">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@400;600;700&family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/default.css">
-<link rel="stylesheet" href="../css/text.css">
-<link rel="stylesheet" href="../css/topbar.css">
-<link rel="stylesheet" href="../css/navbar.css">
-<link rel="stylesheet" href="../css/footer.css">
-<link rel="stylesheet" href="../css/content01.css">
-<link rel="stylesheet" href="../css/getstarted.css">
-<link rel="stylesheet" href="../css/inline-image.css">
+<link rel="stylesheet" href="./css/default.css">
+<link rel="stylesheet" href="./css/text.css">
+<link rel="stylesheet" href="./css/topbar.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/content01.css">
+<link rel="stylesheet" href="./css/getstarted.css">
+<link rel="stylesheet" href="./css/inline-image.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-<script src="../script/main.js"></script>
+<script src="./script/main.js"></script>
 </head>
 <body>
-{% include topbar.html %}
+<nav id="topbar" class="home-sticky">
+    <div>
+        <a href="https://www.picoala.com" alt="Picoala"><img class="icon" src="images/picoala-logo@2x.png" alt="Picoala"/></a>
+        <div id="navbutton"></div>
+        <div id="navmenu">
+            <ul>
+                <li><a href="features" alt="Features">Features</a>
+                <li><a href="guides" alt="Guides">Guides</a>
+                <li><a href="subscription" alt="Subscription">Subscription</a>
+                <li><a href="contact" alt="Contact Us">Contact Us</a>
+            </ul>
+        </div>
+    </div>
+</nav>
 <main class="content">
     <nav id="navbar" class="sticky">
         <div>
@@ -57,9 +71,9 @@
             <p>The app is available on the App Store. You can download and install it using one of the following options:</p>
             <ul id="download">
                 <li class="qrcode">Scan the QR code with your camera and follow the link that appears on the screen<br/>
-                    <img src="../images/picoala-qr@2x.png" alt="Scan QR-code"/>
+                    <img src="./images/picoala-qr@2x.png" alt="Scan QR-code"/>
                 <li class="button">Click the button to open the app directly on the App Store<br/>
-                    <a href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="../images/appstore.svg" alt="Download on the App Store"></a>
+                    <a href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="./images/appstore.svg" alt="Download on the App Store"></a>
                     </li>
             </ul>
         </section><section id="basics">
@@ -88,7 +102,7 @@
                     <li>Select photos from the source.</li>
                     <li>After a moment they will appear in the project.</li>
                 </ol>
-                <img src="../images/features/add-photos@2x.png" style="aspect-ratio: 1 / 1;"/>
+                <img src="./images/features/add-photos@2x.png" style="aspect-ratio: 1 / 1;"/>
             </div>
             
         </section><section id="sheetsize">
@@ -103,7 +117,7 @@
                     <li>Choose desired paper size from the list.</li>
                     <li>Tap on any text field below the list to enter and apply a new size.</li>
                 </ol>
-                <img src="../images/features/paper-size@2x.png" style="aspect-ratio: 6 / 8;"/>
+                <img src="./images/features/paper-size@2x.png" style="aspect-ratio: 6 / 8;"/>
             </div>
             <div class="contentgroup">
                 <h3>Specify page orientation, margins and spacing</h3>
@@ -115,7 +129,7 @@
                     <li>Specify a new value for page spacing using the text field below the page.</li>
                     <li>Enable the "Apply to All" option to apply the page settings to all non-locked pages.</li>
                 </ol>
-                <img src="../images/features/paper-margins@2x.png" style="aspect-ratio: 780 / 1688;"/>
+                <img src="./images/features/paper-margins@2x.png" style="aspect-ratio: 780 / 1688;"/>
             </div>
         </section><section id="layoutmode">
             <h2>Choose layout mode</h2>
@@ -130,7 +144,7 @@
                     <li>Specify the number of columns for the Grid layout mode.</li>
                     <li>Choose a template or create a new table for the Collage layout mode.</li>
                 </ol>
-                <img src="../images/features/layout@2x.jpg" style="aspect-ratio: 1 / 1;"/>
+                <img src="./images/features/layout@2x.jpg" style="aspect-ratio: 1 / 1;"/>
             </div>
             <div class="contentgroup">
                 <h3>Specify layout for all pages</h3>
@@ -153,7 +167,7 @@
                     <li>Tap on the text field above the list to enter and apply a new resolution.</li>
                     <li>Use buttons at the bottom to switch between DPI and DPCM.</li>
                 </ol>
-                <img src="../images/features/resolution@2x.png" style="aspect-ratio: 6 / 7;"/>
+                <img src="./images/features/resolution@2x.png" style="aspect-ratio: 6 / 7;"/>
             </div>
         </section><section id="editpage">
             <h2>Edit page content</h2>
@@ -171,7 +185,7 @@
                     <li>Use buttons from the editing popup list to edit, crop, flip, delete, bring to front, or send to back the selected photos.</li>
                     <li>Tap the <span class="inline-action inline-image-copy-four">Make 4 Copies </span> button from the editing popup list to make 4 copies at once when one photo is selected.</li>
                 </ol>
-                <img src="../images/features/edit-auto@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
+                <img src="./images/features/edit-auto@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
             </div>
             <div id="editphotosize" class="contentgroup">
                 <h3>Update selected photos size and position</h3>
@@ -182,7 +196,7 @@
                     <li>Choose a new size from the list.</li>
                     <li>Select either "Original", "Proportional", or "Square" sizes from the list.</li>
                 </ol>
-                <img src="../images/features/photo-size-edit2@2x.png" style="aspect-ratio: 780 / 1110;"/>
+                <img src="./images/features/photo-size-edit2@2x.png" style="aspect-ratio: 780 / 1110;"/>
             </div>
             <div id="editphotosize" class="contentgroup">
                 <h3>Update size of all photos</h3>
@@ -192,7 +206,7 @@
                     <li>Make any size changes described in the previous section to resize either all photos in the project or all photos on the page.</li>
                     <li>Select the <span class="inline-action inline-image-size-smart">Smart </span> mode on the bottom bar to apply a new size to photos based on their Portrait or Landscape orientation.</li>
                 </ol>
-                <img src="../images/features/photo-size-edit3@2x.png" style="aspect-ratio: 780 / 1110;"/>
+                <img src="./images/features/photo-size-edit3@2x.png" style="aspect-ratio: 780 / 1110;"/>
             </div>
         </section><section id="addborder">
             <h2>Add border to photos</h2>
@@ -209,7 +223,7 @@
                     <li>Enter the border thickness into the text field using the keyboard.</li>
                     <li>Tap on the drop-down menu button at the top of the border popup to change editing scope to "All photos" or "Pages photos".</li>
                 </ol>
-                <img src="../images/features/photo-border@2x.jpg" style="aspect-ratio: 780 / 1110;"/>
+                <img src="./images/features/photo-border@2x.jpg" style="aspect-ratio: 780 / 1110;"/>
             </div>
         </section><section id="editphoto">
             <h2>Edit photo individually</h2>
@@ -223,7 +237,7 @@
                     <li>Tap the <span class="inline-action inline-image-flipv">Flip </span> button on the top bar to flip the photo vertically.</li>
                     <li>Use the <span class="inline-action inline-image-dots"></span> menu on the top bar to reset the photo to its initial state.</li>
                 </ol>
-                <img src="../images/features/edit-photo@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
+                <img src="./images/features/edit-photo@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
             </div>
             <div class="contentgroup">
                 <h3>Complete photo editing</h3>
@@ -244,7 +258,7 @@
                     <li>Select either the <span class="inline-action inline-image-collage-template">Template </span> or <span class="inline-action inline-image-collage-table">Table </span> collage type on the bottom bar of the popup window.</li>
                     <li>Choose the most appropriate template from the list or create a table of the preferred size.</li>
                 </ol>
-                <img src="../images/features/collage-type@2x.png" style="aspect-ratio: 6 / 8;"/>
+                <img src="./images/features/collage-type@2x.png" style="aspect-ratio: 6 / 8;"/>
             </div>
             <div class="contentgroup" id="editcollage">
                 <h3>Edit current collage page</h3>
@@ -261,7 +275,7 @@
                     <li>Tap the "N Selected" button in the middle of the selection bar to open the editing popup list.</li>
                     <li>Use buttons from the editing popup list to edit, crop, flip, delete the selected photo.</li>
                 </ol>
-                <img src="../images/features/edit-collage@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
+                <img src="./images/features/edit-collage@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
             </div>
             <div class="contentgroup">
                 <h3>Update size and position of selected photo or placeholder.</h3>
@@ -278,7 +292,7 @@
                     <li>Make sure all required settings are properly configured on that standard screen, including paper size, quality, color, and other presets.</li>
                     <li>Tap the "Print" button in the top right corner of the popup window.</li>
                 </ol>
-                <img src="../images/features/print@2x.png" style="aspect-ratio: 780 / 1176;"/>
+                <img src="./images/features/print@2x.png" style="aspect-ratio: 780 / 1176;"/>
             </div>
             <div class="contentgroup">
                 <h3>Share as PDF</h3>
@@ -290,7 +304,7 @@
                     <li>Tap the "Export" button at the bottom of the popup.</li>
                     <li>Choose a destination to share.</li>
                 </ol>
-                <img src="../images/features/share@2x.jpg" style="aspect-ratio: 780 / 1176;"/>
+                <img src="./images/features/share@2x.jpg" style="aspect-ratio: 780 / 1176;"/>
             </div>
             <div class="contentgroup">
                 <h3>Share as JPEG, TIFF, PNG, HEIC</h3>
@@ -303,7 +317,7 @@
                     <li>Tap the "Export" button at the bottom of the popup.</li>
                     <li>Choose a destination to share.</li>
                 </ol>
-                <img src="../images/features/share2@2x.jpg" style="aspect-ratio: 780 / 1176;"/>
+                <img src="./images/features/share2@2x.jpg" style="aspect-ratio: 780 / 1176;"/>
             </div>
         </section><section>
             <p>
@@ -312,6 +326,59 @@
         </section>
     </div>
 </main>
-{% include footer.html %}
+<footer id="footer">
+    <div class="container">
+        <section id="botmenu">
+            <ul>
+                <li><h4>Features</h4><ul>
+                    <li><a href="features/#autolayout" alt="Auto Layout">Auto Layout</a></li>
+                    <li><a href="features/#photosize" alt="Photo Size">Photo Size</a></li>
+                    <li><a href="features/#pagemargins" alt="Page Margins">Page Margins</a></li>
+                    <li><a href="features/#editpage" alt="age Editing">Page Editing</a></li>
+                    <li><a href="features/#editcollage" alt="Collage Editing">Collage Editing</a></li>
+                    <li><a href="features/" alt="All Features">All Features</a></li>
+                    <li><a href="features/#soon" alt="Upcoming Features">Upcoming Features</a></li>
+                </ul></li>
+                <li><h4>Guides</h4><ul>
+                    <li><a href="guides/" alt="Get Started">Get Started</a></li>
+                    <li><a href="guides/#basics" alt="Learn Basics">Learn Basics</a></li>
+                    <li><a href="guides/#editpage" alt="Edit page content">Edit page content</a></li>
+                    <li><a href="guides/#addborder" alt="Add border to photos">Add border to photos</a></li>
+                    <li><a href="guides/#editphoto" alt="Edit photos">Edit photos</a></li>
+                    <li><a href="guides/#collage" alt="Learn Basics">Create collages</a></li>
+                    <li><a href="guides/#export" alt="Print and Share">Print and Share</a></li>
+                </ul></li>
+                <li><h4>Subscription</h4><ul>
+                    <li><a href="subscription/" alt="About Subscription">About Subscription</a></li>
+                    <li><a href="subscription/#why" alt="Why Subscription?">Why Subscription?</a></li>
+                    <li><a href="subscription/#plans" alt="Subscription Plans">Subscription Plans</a></li>
+                    <li><a href="subscription/#include" alt="What is Included?">What is Included?</a></li>
+                    <li><a href="subscription/#cancel" alt="Cancel Subscription">Cancel Subscription</a></li>
+                </ul></li>
+                <li><h4>Contact Us</h4><ul>
+                    <li><a href="contact?select=question" alt="Ask Question">Ask Question</a></li>
+                    <li><a href="contact?select=support" alt="Get Support">Get Support</a></li>
+                    <li><a href="contact?select=feature" alt="Request Feature">Request Feature</a></li>
+                    <li><a href="contact?select=bug" alt="Report Bug">Report Bug</a></li>
+                    <li><a href="contact?select=other" alt="Send Email">Send Email</a></li>
+                </ul></li>
+            </ul>
+        </section>
+        <section id="copyrights">
+            <div>
+                <div class="left">
+                    <a class="download" href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="images/appstore.svg" alt="Download on the App Store"></a>
+                </div>
+                <div class="center">
+                    <p>© 2023 Aliaksei Khutarshchykau. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" alt="Terms of Service">Terms of Service</a> and <a href="privacy" alt="Privacy Policy">Privacy Policy</a>.</p>
+                </div>
+                <div class="right">
+                    <a href="https://twitter.com/picoalapp" alt="Twitter"><img src="images/twitter-icon@2x.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/picoalaprint" alt="Facebook"><img src="images/facebook-icon@2x.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
 </body>
 </html>

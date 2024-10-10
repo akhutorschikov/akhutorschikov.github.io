@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Picoala Home</title>
+<base href="../">
 <link rel="icon" href="./images/favicon.png" type="image/png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="keywords" content="print multiple photos on one page, iOS printer, iPhone printer, AirPrint, photo, layout, pdf, collage, print">
-<base href="../">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@600;700&family=Raleway:wght@500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -18,10 +18,76 @@
 <script src="./script/main.js"></script>
 </head>
 <body>
-{% include topbar.html %}
+<nav id="topbar" class="home-sticky">
+    <div>
+        <a href="https://www.picoala.com" alt="Picoala"><img class="icon" src="images/picoala-logo@2x.png" alt="Picoala"/></a>
+        <div id="navbutton"></div>
+        <div id="navmenu">
+            <ul>
+                <li><a href="features" alt="Features">Features</a>
+                <li><a href="guides" alt="Guides">Guides</a>
+                <li><a href="subscription" alt="Subscription">Subscription</a>
+                <li><a href="contact" alt="Contact Us">Contact Us</a>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 Contact Form Loading...
 
-{% include footer.html %}
+<footer id="footer">
+    <div class="container">
+        <section id="botmenu">
+            <ul>
+                <li><h4>Features</h4><ul>
+                    <li><a href="features/#autolayout" alt="Auto Layout">Auto Layout</a></li>
+                    <li><a href="features/#photosize" alt="Photo Size">Photo Size</a></li>
+                    <li><a href="features/#pagemargins" alt="Page Margins">Page Margins</a></li>
+                    <li><a href="features/#editpage" alt="age Editing">Page Editing</a></li>
+                    <li><a href="features/#editcollage" alt="Collage Editing">Collage Editing</a></li>
+                    <li><a href="features/" alt="All Features">All Features</a></li>
+                    <li><a href="features/#soon" alt="Upcoming Features">Upcoming Features</a></li>
+                </ul></li>
+                <li><h4>Guides</h4><ul>
+                    <li><a href="guides/" alt="Get Started">Get Started</a></li>
+                    <li><a href="guides/#basics" alt="Learn Basics">Learn Basics</a></li>
+                    <li><a href="guides/#editpage" alt="Edit page content">Edit page content</a></li>
+                    <li><a href="guides/#addborder" alt="Add border to photos">Add border to photos</a></li>
+                    <li><a href="guides/#editphoto" alt="Edit photos">Edit photos</a></li>
+                    <li><a href="guides/#collage" alt="Learn Basics">Create collages</a></li>
+                    <li><a href="guides/#export" alt="Print and Share">Print and Share</a></li>
+                </ul></li>
+                <li><h4>Subscription</h4><ul>
+                    <li><a href="subscription/" alt="About Subscription">About Subscription</a></li>
+                    <li><a href="subscription/#why" alt="Why Subscription?">Why Subscription?</a></li>
+                    <li><a href="subscription/#plans" alt="Subscription Plans">Subscription Plans</a></li>
+                    <li><a href="subscription/#include" alt="What is Included?">What is Included?</a></li>
+                    <li><a href="subscription/#cancel" alt="Cancel Subscription">Cancel Subscription</a></li>
+                </ul></li>
+                <li><h4>Contact Us</h4><ul>
+                    <li><a href="contact?select=question" alt="Ask Question">Ask Question</a></li>
+                    <li><a href="contact?select=support" alt="Get Support">Get Support</a></li>
+                    <li><a href="contact?select=feature" alt="Request Feature">Request Feature</a></li>
+                    <li><a href="contact?select=bug" alt="Report Bug">Report Bug</a></li>
+                    <li><a href="contact?select=other" alt="Send Email">Send Email</a></li>
+                </ul></li>
+            </ul>
+        </section>
+        <section id="copyrights">
+            <div>
+                <div class="left">
+                    <a class="download" href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="images/appstore.svg" alt="Download on the App Store"></a>
+                </div>
+                <div class="center">
+                    <p>© 2023 Aliaksei Khutarshchykau. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" alt="Terms of Service">Terms of Service</a> and <a href="privacy" alt="Privacy Policy">Privacy Policy</a>.</p>
+                </div>
+                <div class="right">
+                    <a href="https://twitter.com/picoalapp" alt="Twitter"><img src="images/twitter-icon@2x.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/picoalaprint" alt="Facebook"><img src="images/facebook-icon@2x.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
 </body>
 </html>
