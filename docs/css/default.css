@@ -1,0 +1,250 @@
+body {
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    font-family: 'Montserrat Alternates', sans-serif;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    font-family: 'Roboto', sans-serif;*/
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+:target {
+    scroll-margin-top: 100px;
+}
+
+img, a, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4, .content > div p, .content > div li {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul, li, section {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+h2 {
+    line-height: 1.2;
+}
+h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+main {
+    color: color(display-p3 0 0 0);
+    background-color: color(display-p3 1 1 1);
+}
+
+aside {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.7;
+    color: color(display-p3 0.0157 0.102 0.173);
+    background-color: color(display-p3 0.980 0.984 0.988);
+    background-image: url("../images/notes-icon@2x.png");
+    background-size: 16px 15px;
+    background-repeat: no-repeat;
+    background-position: 20px 18px;
+    border: solid 1px color(display-p3 0.549 0.651 0.753);
+    border-radius: 8px;
+    padding: 16px 20px;
+    text-indent: 25px;
+    display: inline-block;
+    text-align: justify;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+aside.warning {
+    color: color(display-p3 0.173 0.102 0.0157);
+    background-color: color(display-p3 0.988 0.984 0.980);
+    background-image: url("../images/warning-icon@2x.png");
+    border-color: color(display-p3 0.753 0.651 0.549);
+}
+
+aside > a {
+    text-decoration: none;
+    vertical-align: baseline;
+    color: color(display-p3 0.176 0.439 0.855);
+}
+
+aside > a:hover {
+    color: color(display-p3 1 0.510 0);
+}
+
+aside.compact > a {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.inline-action {
+    white-space: nowrap;
+    color: color(display-p3 0.349 0.192 0.494);
+}
+
+.inline-action:after {
+    content: "";
+    width: 23px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 20px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-bottom: 2px;
+}
+
+.container {
+    max-width: 1232px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 44px;
+    padding-right: 44px;
+    position: relative;
+}
+
+.noscroll {
+    overflow: hidden !important;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content > div p,
+.content > div li {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.content p img.inline,
+.content li img.inline {
+    height: 22px;
+    vertical-align: text-bottom;
+    margin-bottom: 1px;
+}
+
+.content > div a {
+    text-decoration: none;
+    vertical-align: baseline;
+    color: color(display-p3 0.176 0.439 0.855);
+}
+
+.content > div a:hover {
+    color: color(display-p3 1 0.510 0);
+}
+
+ol.steps {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol.steps > li {
+    position: relative; /* Create a positioning context */
+    margin: 0 0 6px 28px; /* Give each list item a left margin to make room for the numbers */
+    padding: 2px 12px; /* Add some spacing around the content */
+    list-style: none; /* Disable the normal item numbering */
+}
+ol.steps > li:before {
+    content: counter(li); /* Use the counter as content */
+    counter-increment: li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position: absolute;
+    top: 4px;
+    left: -28px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right: 12px;
+    padding-top: 3px;
+    margin-top: 2px;
+    color:#fff;
+    background: black;
+/*    background: color(display-p3 1 0.604 0.196);*/
+/*    background: color(display-p3 1 0.753 0.341);*/
+/*    background: color(display-p3 0.349 0.192 0.494);*/
+    font-weight: 600;
+    font-size: 13px;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+@media (width < 1320px) {
+    h1 {
+        font-size: calc(1.7568vw + 28.81px);
+    }
+    h3 {
+        font-size: calc(0.4054vw + 16.65px);
+    }
+    .content > div p,
+    .content > div li {
+        font-size: calc(0.4054vw + 16.65px);
+    }
+    
+    .inline-action:after {
+        margin-bottom: calc(0.1351vw + 0.22px);
+    }
+    
+    ol.steps > li:before {
+        margin-top: calc(0.2703vw - 1.57px);
+    }
+}
+
+
+@media (width < 1000px) {
+    .container {
+        --container-horizontal-padding: calc(4.8vw - 4px);
+        padding-left: var(--container-horizontal-padding);
+        padding-right: var(--container-horizontal-padding);
+    }
+}
+
+@media (width < 580px) {
+    h1 {
+        font-size: 39px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .content > div p,
+    .content > div li {
+        font-size: 19px;
+    }
+    
+    .inline-action:after {
+        margin-bottom: 1px;
+    }
+    
+    ol.steps > li:before {
+        margin-top: 0;
+    }
+}

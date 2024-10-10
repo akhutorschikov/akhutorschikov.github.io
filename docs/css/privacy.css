@@ -1,0 +1,36 @@
+
+
+main > div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content > div {
+    min-height: 400px;
+}
+
+.content > div > section {
+    padding-bottom: 20px;
+}
+
+.content > div h2 {
+    margin-bottom: 15px;
+}
+.content > div h3,
+.content > div p {
+    margin-bottom: 20px;
+}
+
+.content > div p {
+    text-align: justify;
+}
+
+.content > div ul {
+    list-style: square;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+.content > div p + h3,
+.content > div ul + h3 {
+    margin-top: 35px;
+}

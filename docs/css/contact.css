@@ -1,0 +1,217 @@
+main > div {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.container > aside {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 630px;
+}
+
+#title {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title h2,
+#title p {
+    text-align: center;
+}
+
+#title .email-response {
+    margin: 30px 0;
+}
+
+#title .success {
+    color: color(display-p3 0 0.592 0.329);
+}
+
+#title .error {
+    color: color(display-p3 0.796 0.306 0.306);
+}
+
+#contactform {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content > div > section {
+    padding-bottom: 20px;
+    container-type: inline-size;
+    container-name: maincontent;
+}
+
+#contactform > form > div {
+    display: flex;
+    align-items: top;
+    justify-content: stretch;
+    
+    padding: 10px 0;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#contactform > form > div * {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#contactform > form > div > label {
+    width: 25%;
+    margin: 0;
+    margin-right: 35px;
+    text-align: right;
+    padding: 0;
+    padding-top: 11px;
+    font-size: 18px;
+    display: block;
+}
+
+#contactform > form > div > label > span {
+    font-size: 13px;
+    display: block;
+    margin-top: 8px;
+    color: color(display-p3 0.588 0.588 0.596);
+    line-height: 1.6;
+}
+
+#contactform > form > div > div > span {
+    font-size: 10px;
+    display: block;
+    margin-top: 8px;
+    color: color(display-p3 0.588 0.588 0.596);
+    line-height: 1.6;
+}
+
+#contactform > form > div > :not(label, button) {
+    width: calc(75% - 35px);
+}
+
+#contactform > form input,
+#contactform > form select,
+#contactform > form textarea {
+    display: block;
+    height: 44px;
+    border: solid 1px color(display-p3 0.706 0.706 0.714);
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 7px 18px;
+    margin: 0;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#contactform > form textarea {
+    
+    line-height: 1.5;
+    
+    overflow-y: auto;
+    position: relative;
+    min-height: 100px;
+
+    resize: vertical;
+    height: auto;
+}
+
+#contactform > form input::placeholder,
+#contactform > form input::-ms-input-placeholder {
+    color: color(display-p3 0.706 0.706 0.706);
+    opacity: 1; /* Firefox */
+}
+#contactform > form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    background: url("../images/select-arrow@2x.png") no-repeat center right 14px;
+    background-size: 24px 24px;
+}
+
+#appversion input {
+    width: 100%;
+}
+
+#message > label > span {
+    max-width: 130px;
+    margin-left: auto;
+}
+
+#button > button {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700 !important;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    height: 56px;
+    width: 280px;
+    background-color: color(display-p3 0.1294 0.5647 0.3725);
+    margin-left: calc(25% + 35px);
+    margin-top: 30px;
+}
+
+#button > button:hover {
+    background-color: color(display-p3 0.1490 0.6588 0.4353);
+}
+
+.content > div h2 {
+    margin-bottom: 15px;
+}
+.content > div h3,
+.content > div p {
+    margin-bottom: 20px;
+}
+
+.content > div p {
+    text-align: justify;
+}
+
+.content > div ul {
+    list-style: square;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+.content > div p + h3,
+.content > div ul + h3 {
+    margin-top: 35px;
+}
+
+.content > div a {
+    text-decoration: none;
+    vertical-align: baseline;
+    color: color(display-p3 0.176 0.439 0.855);
+}
+
+.content > div a:hover {
+    color: color(display-p3 1 0.510 0);
+}
+
+
+@media (width < 600px) {
+    #contactform > form > div {
+        flex-direction: column;
+        padding: 6px 0;
+    }
+    #contactform > form > div > label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 9px;
+    }
+    #message > label > span {
+        max-width: none;
+        margin-left: 0;
+        width: 100%;
+    }
+    #contactform > form > div > :not(label) {
+        width: 100%;
+        margin-left: 0;
+    }
+}

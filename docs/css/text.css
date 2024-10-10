@@ -1,0 +1,17 @@
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+@media (width < 1320px) {
+    h2 {
+        font-size: calc(0.8108vw + 25.30px);
+    }
+}
+
+@media (width < 580px) {
+    h2 {
+        font-size: 30px;
+    }
+}

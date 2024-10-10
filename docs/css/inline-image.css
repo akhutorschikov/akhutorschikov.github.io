@@ -1,0 +1,70 @@
+
+.inline-image-dots:after {
+    background-image: url("../images/inline/inline-dots@2x.png");
+}
+.inline-image-crop:after {
+    background-image: url("../images/inline/inline-crop@2x.png");
+}
+.inline-image-plus:after {
+    background-image: url("../images/inline/inline-plus@2x.png");
+}
+.inline-image-print:after {
+    background-image: url("../images/inline/inline-print@2x.png");
+}
+.inline-image-share:after {
+    background-image: url("../images/inline/inline-share@2x.png");
+}
+.inline-image-settings:after {
+    background-image: url("../images/inline/inline-settings@2x.png");
+}
+.inline-image-layout:after {
+    background-image: url("../images/inline/inline-layout@2x.png");
+}
+.inline-image-copy:after {
+    background-image: url("../images/inline/inline-copy@2x.png");
+}
+.inline-image-copy-four:after {
+    background-image: url("../images/inline/inline-copy-four@2x.png");
+}
+.inline-image-size-smart:after {
+    background-image: url("../images/inline/inline-size-smart@2x.png");
+}
+.inline-image-border:after {
+    background-image: url("../images/inline/inline-border@2x.png");
+}
+.inline-image-desqueeze:after {
+    background-image: url("../images/inline/inline-desqueeze@2x.png");
+}
+.inline-image-delete:after {
+    background-image: url("../images/inline/inline-trash@2x.png");
+}
+.inline-image-rotate:after {
+    background-image: url("../images/inline/inline-rotate@2x.png");
+}
+.inline-image-grid:after {
+    background-image: url("../images/inline/inline-grid@2x.png");
+}
+.inline-image-collage-template:after {
+    background-image: url("../images/inline/inline-collage-template@2x.png");
+}
+.inline-image-collage-table:after {
+    background-image: url("../images/inline/inline-collage-table@2x.png");
+}
+.inline-image-collage-unbind:after {
+    background-image: url("../images/inline/inline-collage-unbind@2x.png");
+}
+.inline-image-fliph:after {
+    background-image: url("../images/inline/inline-flip-hor@2x.png");
+}
+.inline-image-flipv:after {
+    background-image: url("../images/inline/inline-flip-ver@2x.png");
+}
+.inline-image-collage:after {
+    background-image: url("../images/inline/inline-collage@2x.png");
+}
+.inline-image-splitv:after {
+    background-image: url("../images/inline/inline-split-ver@2x.png");
+}
+.inline-image-splith:after {
+    background-image: url("../images/inline/inline-split-hor@2x.png");
+}

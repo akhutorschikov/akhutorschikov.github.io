@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Picoala Home</title>
+<link rel="icon" href="./images/favicon.png" type="image/png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="print multiple photos on one page, iOS printer, iPhone printer, AirPrint, photo, layout, pdf, collage, print">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@600;700&family=Raleway:wght@500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/topbar.css">
+<link rel="stylesheet" href="./css/home.css">
+<link rel="stylesheet" href="./css/footer.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<script src="./script/main.js"></script>
+</head>
+<body>
+{% include topbar.html %}
+<header id="header">
+    <div class="back"></div>
+    <div class="main container">
+        <div class="left">
+            <div class="title">
+                <img class="icon" src="./images/picoala@2x.png" alt="Picoala"/>
+                <h1>Your Best Assistant for&nbsp;Printing Photos</h1>
+                <p>Get Picoala app now and explore advanced photo Layout and Printing directly from your iPhone</p>
+            </div>
+            <div class="appstore">
+                <a class="qrcode" href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="./images/picoala-qr@2x.png" alt="Scan QR-code"/></a>
+                <a class="download" href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="./images/appstore.svg" alt="Download on the App Store"></a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="./images/header-image@2x.jpg" alt="Picoala Collage"/>
+        </div>
+    </div>
+</header>
+<div class="content whitestripe">
+    <div class="container">
+         <section id="summary" class="wide">
+            <h2>Turn your photos into beautiful works of art on paper</h2>
+            <p>Picoala equips you with a comprehensive set of tools to prepare, organize, and arrange multiple photos on pages using both automatic and manual layouts, and easily AirPrint and Share the results in PDF format.</p>
+        </section>
+        <section id="autolayout" class="dual">
+            <div>
+                <img src="./images/autolayout@2x.jpg" alt="Auto layout"/>
+            </div>
+            <div>
+                <h2>Lay out automatically</h2>
+                <p>Discover the ease of automatic photo arrangement and positioning, saving your time and ensuring optimal layout results.</p>
+            </div>
+        </section>
+        <section id="multiedit" class="dual">
+            <div class="left">
+                <h2>Edit at every level</h2>
+                <p>Explore three distinct levels of in-app content editing:</p>
+                <ul>
+                    <li class="orange">Project Level. Offers mostly global and automatically applied settings, well suited for updating the entire project and page.</li>
+                    <li class="red">Page Level. Allows to make layout and content editing of any single page, perfectly suited for layout adjustments and photo resizing.</li>
+                    <li class="blue">Photo Level. Provides tools to modify any single photo, including crop, flip, and rotation.</li>
+                </ul>
+            </div>
+            <div class="right">
+                <img src="./images/multiedit@2x.jpg" alt="Multilevel editing"/>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="content redstripe">
+    <div class="container">
+        <section id="settings" class="dual">
+            <div class="left">
+                <h2>Juggle Individual
+                    &&nbsp;Global settings</h2>
+                <p>Streamline your workflow by applying the proper settings at the right moment:</p>
+                <p>Use Global settings when you need to apply the same adjustments to all photos and pages. Use Individual settings when you need to make changes to a single photo or page.</p>
+                <p>The app offers both options for most settings, like page size, margins, photo size, de-squeeze, etc.</p>
+            </div>
+            <div class="right">
+                <div class="left">
+                    <img src="./images/globalsettings@2x.png" alt="Global settings"/>
+                </div>
+                <div class="right">
+                    <img src="./images/individualsettings@2x.png" alt="Individual settings"/>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="content whitestripe">
+    <div class="container">
+        <section id="collage" class="dual">
+            <div class="left">
+                <img id="collage-image" src="./images/header-image@2x.jpg" alt="Picoala Collage"/>
+                <img id="collage-edit" src="./images/collage-edit@2x.png" alt="Collage editing layer"/>
+                <img id="collage-grid" src="./images/collage-grid@2x.png" alt="Collage selection popup"/>
+            </div>
+            <div class="right">
+                <h2>Create stunning collages</h2>
+                <p>Choose the most suitable collage from a diverse collection of commonly used templates when Collage layout mode is selected.</p>
+                <p>Edit selected collage pages to make them truly unique and outstanding by using collage-specific tools, including resize, split, merge, swap, and more.</p>
+            </div>
+        </section>
+        <section id="projects" class="wide">
+           <h2>Manage multiple projects</h2>
+           <p>Create, modify, and switch between an unlimited number of in-app projects to organize your photos for specific tasks, making them easily accessible for editing and printing.</p>
+           <ul>
+               <li><img src="./images/project01@2x.jpg" alt="Project: Good Morning"/>
+                   <div class="title"><h4>Good Morning</h4><span>32&nbsp;photos, 3&nbsp;pages</span></div>
+                   <div class="info"><span>88,5&nbsp;Mb</span> <span class="timedate">4:52&nbsp;PM</span></div>
+               </li>
+               <li><img src="./images/project02@2x.jpg" alt="Project: Happy Birthday"/>
+                   <div class="title"><h4>Happy Birthday</h4><span>22&nbsp;photos, 6&nbsp;pages</span></div>
+                   <div class="info"><span>120,8&nbsp;Mb</span> <span class="timedate">Nov&nbsp;8</span></div>
+               </li>
+               <li><img src="./images/project03@2x.jpg" alt="Project: Summer Holidays"/>
+                   <div class="title"><h4>Summer Bliss</h4><span>55&nbsp;photos, 10&nbsp;pages</span></div>
+                   <div class="info"><span>291,0&nbsp;Mb</span> <span class="timedate">Sep&nbsp;21</span></div>
+               </li>
+               <li><img src="./images/project04@2x.jpg" alt="Project: Mystery Garden"/>
+                   <div class="title"><h4>Mystery Garden</h4><span>24&nbsp;photos, 4&nbsp;pages</span></div>
+                   <div class="info"><span>78,2&nbsp;Mb</span><span class="timedate">Sep&nbsp;15</span></div>
+               </li>
+           </ul>
+       </section>
+        <section id="subscription" class="wide">
+            <div>
+                <img class="icon" src="./images/picoala@2x.png" alt="Picoala"/><br/>
+                <h2>Start Your First Project!</h2>
+                <p>Dive deeper into creating with Picoala app. Follow these simple steps to begin your first project and explore the powerful features that will bring your ideas to life.</p>
+                <a href="/guides/" alt="Get Started For Free">Get Started For Free</a>
+                </div>
+       </section>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>

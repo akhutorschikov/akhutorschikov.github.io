@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Started</title>
+<link rel="icon" href="../images/favicon.png" type="image/png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="print multiple photos on one page, iOS printer, iPhone printer, AirPrint, photo, layout, pdf, collage, print">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@400;600;700&family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/default.css">
+<link rel="stylesheet" href="../css/text.css">
+<link rel="stylesheet" href="../css/topbar.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="../css/content01.css">
+<link rel="stylesheet" href="../css/getstarted.css">
+<link rel="stylesheet" href="../css/inline-image.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<script src="../script/main.js"></script>
+</head>
+<body>
+{% include topbar.html %}
+<main class="content">
+    <nav id="navbar" class="sticky">
+        <div>
+            <section>
+                <h1>Guides</h1>
+            </section>
+            <section>
+                <p>Updated: Jul 1, 2024</p>
+            </section>
+        </div>
+    </nav>
+    <div id="maincontent" class="container">
+        <section>
+            <div class="sidemenu">
+                <nav>
+                    <h6>Table of Contents</h6>
+                    <ul>
+                        <li><a href="#started" alt="Get Started">Get Started</a></li>
+                        <li><a href="#basics" alt="Learn Basics">Learn Basics</a></li>
+                        <li><a href="#addphotos" alt="Add photos to project">Add photos to project</a></li>
+                        <li><a href="#sheetsize" alt="Set page size, margins and spacing">Set page size, margins and spacing</a></li>
+                        <li><a href="#layoutmode" alt="Choose layout mode">Choose layout mode</a></li>
+                        <li><a href="#resolution" alt="Set resolution">Set resolution</a></li>
+                        <li><a href="#editpage" alt="Edit page content">Edit page content</a></li>
+                        <li><a href="#addborder" alt="Add border to photos">Add border to photos</a></li>
+                        <li><a href="#editphoto" alt="Edit photo individually">Edit photo individually</a></li>
+                        <li><a href="#collage" alt="Create stunning collages">Create stunning collages</a></li>
+                        <li><a href="#export" alt="Print and Share your work">Print and Share your work</a></li>
+                    </ul>
+                <nav>
+            </div>
+            <h2 id="started">Get started</h2>
+            <p>The app is available on the App Store. You can download and install it using one of the following options:</p>
+            <ul id="download">
+                <li class="qrcode">Scan the QR code with your camera and follow the link that appears on the screen<br/>
+                    <img src="../images/picoala-qr@2x.png" alt="Scan QR-code"/>
+                <li class="button">Click the button to open the app directly on the App Store<br/>
+                    <a href="https://apple.co/47K6fhx" alt="Download on the App Store"><img src="../images/appstore.svg" alt="Download on the App Store"></a>
+                    </li>
+            </ul>
+        </section><section id="basics">
+            <h2>Learn Basics</h2>
+            <p>The app works in a way that significantly reduces time spent on routine tasks, allowing you to focus solely on adjustments and individual tasks. Layout modes such as Auto, Grid, and Collage arrange photos on pages automatically, providing you with tools to adjust layout behaviour and facilitate subsequent editing.</p>
+            <aside>
+                For example, you can add 100 photos, and the app will automatically place them on multiple pages in just a few seconds, letting you print all of them right away.
+            </aside>
+            <p>The app allows you to create an unlimited number of projects with desired settings and content. Each project supports both standard and custom paper (page) sizes, but only one size can be selected for a single project at a time.</p>
+            <p>Each page within the project can have individual orientation (Landscape or Portrait), margins, spacing, background color, and background images, all of which can be changed at any moment.</p>
+            <p>To prevent any page from being updated, use the "Lock" button located just below the current page. You will see multiple indications throughout the app that the page is locked. To unlock a page, toggle the "Lock" button below the page or use the page popup menu that appears over each page on the pages bar.</p>
+            <p>The app provides tools for both editing photos on a page and individual photo editing. To edit photos on any page, you need to select them first. The app supports both single-target selection and multi-select.</p>
+            <p>To edit any photo individually, use a double tap gesture or the <span class="inline-action inline-image-crop">Edit Photo </span> action from the selection action list.</p>
+            <p>To export your results use the <span class="inline-action inline-image-print">Print </span> or the <span class="inline-action inline-image-share">Share </span> button.</p>
+        </section><section id="addphotos">
+            <h2>Add photos to project</h2>
+            <p>You can add as many photos as you wish to the project multiple times. However, we do not recommend selecting more than 100 photos in one go.</p>
+            
+            <div class="contentgroup">
+                <h3>Add photos to the current page</h3>
+                <p>Ensure that the current page is unlocked before attempting to add photos to it.</p>
+                <ol class="steps">
+                    <li>Open the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-plus">Add </span> button on the bottom bar.</li>
+                    <li>Choose source: Files, Camera, or Photo Library.</li>
+                    <li>Select photos from the source.</li>
+                    <li>After a moment they will appear in the project.</li>
+                </ol>
+                <img src="../images/features/add-photos@2x.png" style="aspect-ratio: 1 / 1;"/>
+            </div>
+            
+        </section><section id="sheetsize">
+            <h2>Set page size, margins and spacing</h2>
+            <p>You can change these settings at any time. The new size will be applied to all pages in the project, while margins and spacing will apply to the current page, or all pages when the "Apply to All" option is selected.</p>
+            <div class="contentgroup">
+                <h3>Select or add paper size</h3>
+                <p>To change the page size, select one of the standard sizes or add a new one:</p>
+                <ol class="steps">
+                    <li>Go to the main screen.</li>
+                    <li>Tap the second button on the bottom bar.</li>
+                    <li>Choose desired paper size from the list.</li>
+                    <li>Tap on any text field below the list to enter and apply a new size.</li>
+                </ol>
+                <img src="../images/features/paper-size@2x.png" style="aspect-ratio: 6 / 8;"/>
+            </div>
+            <div class="contentgroup">
+                <h3>Specify page orientation, margins and spacing</h3>
+                <ol class="steps">
+                    <li>Tap the <span class="inline-action inline-image-settings">Page Settings </span> button on the page bar.</li>
+                    <li>Choose either Portrait or Landscape for the page orientation.</li>
+                    <li>Adjust the margins manually using the circle markers or enter new values in the four text fields on the page.</li>
+                    <li>Enable the "Equal margins" option to apply the same margins to each side.</li>
+                    <li>Specify a new value for page spacing using the text field below the page.</li>
+                    <li>Enable the "Apply to All" option to apply the page settings to all non-locked pages.</li>
+                </ol>
+                <img src="../images/features/paper-margins@2x.png" style="aspect-ratio: 780 / 1688;"/>
+            </div>
+        </section><section id="layoutmode">
+            <h2>Choose layout mode</h2>
+            <p>There are four layout modes in the app to choose from: Normal, Auto, Grid, and Collage. Each mode offers both standard and unique tools and edits to achieve different results. You can select individual layout for each page or use one layout mode for all pages in the project. Note that a small icon indicating the selected layout mode also appears near the current page scale.</p>
+            <div class="contentgroup">
+                <h3>Select layout for the current page</h3>
+                <p>You can change the layout mode at any time, even when the page is full of content.</p>
+                <ol class="steps">
+                    <li>Go to the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-layout">Page Layout </span> button on the page bar.</li>
+                    <li>Select one of the four possible layouts that appear above the page.</li>
+                    <li>Specify the number of columns for the Grid layout mode.</li>
+                    <li>Choose a template or create a new table for the Collage layout mode.</li>
+                </ol>
+                <img src="../images/features/layout@2x.jpg" style="aspect-ratio: 1 / 1;"/>
+            </div>
+            <div class="contentgroup">
+                <h3>Specify layout for all pages</h3>
+                <p>For all modes, except Normal, this also organizes photos in a continuous flow, removing blank spaces and deleting empty pages. Removing photos at the beginning will move all subsequent photos backward to fill the gaps.</p>
+                <ol class="steps">
+                    <li>Tap the "Apply to All" button for Normal mode.</li>
+                    <li>Tap the "Apply to All and Auto Arrange" for other modes.</li>
+                </ol>
+            </div>
+        </section><section id="resolution">
+            <h2>Set resolution</h2>
+            <p>Resolution is used for both calculating pixel size of photos and pages during editing, as well as calculating pixel size for images during export.</p>
+            <div class="contentgroup">
+                <h3>Select or add resolution</h3>
+                <p>Resolution defines the density of pixels per unit of measurement. You can choose between DPI (dots per inch) and DPCM (dots per centimeter) resolution units. To change project resolution:</p>
+                <ol class="steps">
+                    <li>Go to the main screen.</li>
+                    <li>Tap the right button on the bottom bar.</li>
+                    <li>Choose your preferred resolution from the list.</li>
+                    <li>Tap on the text field above the list to enter and apply a new resolution.</li>
+                    <li>Use buttons at the bottom to switch between DPI and DPCM.</li>
+                </ol>
+                <img src="../images/features/resolution@2x.png" style="aspect-ratio: 6 / 7;"/>
+            </div>
+        </section><section id="editpage">
+            <h2>Edit page content</h2>
+            <p>The app provides a comprehensive set of tools to move, resize, orient, duplicate, and remove photos. To learn more about how to edit collage pages, visit the <a href="#editcollage" alt="Collage Editing">Collage Editing</a> section.</p>
+            <div class="contentgroup">
+                <h3>Edit page content</h3>
+                <ol class="steps">
+                    <li>Tap or long press any photo to select it.</li>
+                    <li>Long-press and move from any unoccupied point on the page to multi-select.</li>
+                    <li>Resize the selected photos using markers.</li>
+                    <li>Move the selected photos using a pan gesture.</li>
+                    <li>Tap the <span class="inline-action inline-image-copy">Copy </span> button to make a duplicate of the selected photos.</li>
+                    <li>Tap the <span class="inline-action inline-image-rotate">Rotate </span> button to rotate the selected photos clockwise by 90°.</li>
+                    <li>Tap the "N Selected" button in the middle of the selection bar to open the editing popup list.</li>
+                    <li>Use buttons from the editing popup list to edit, crop, flip, delete, bring to front, or send to back the selected photos.</li>
+                    <li>Tap the <span class="inline-action inline-image-copy-four">Make 4 Copies </span> button from the editing popup list to make 4 copies at once when one photo is selected.</li>
+                </ol>
+                <img src="../images/features/edit-auto@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
+            </div>
+            <div id="editphotosize" class="contentgroup">
+                <h3>Update selected photos size and position</h3>
+                <ol class="steps">
+                    <li>Tap the "Photo Size" button on the bottom bar.</li>
+                    <li>Enter the Left and Top positions using the keyboard.</li>
+                    <li>Enter the Width (W) and Height (H) using the keyboard.</li>
+                    <li>Choose a new size from the list.</li>
+                    <li>Select either "Original", "Proportional", or "Square" sizes from the list.</li>
+                </ol>
+                <img src="../images/features/photo-size-edit2@2x.png" style="aspect-ratio: 780 / 1110;"/>
+            </div>
+            <div id="editphotosize" class="contentgroup">
+                <h3>Update size of all photos</h3>
+                <ol class="steps">
+                    <li>Tap on the drop-down menu button at the top of the photo size popup.</li>
+                    <li>Select either "All photos" or "Page photos".</li>
+                    <li>Make any size changes described in the previous section to resize either all photos in the project or all photos on the page.</li>
+                    <li>Select the <span class="inline-action inline-image-size-smart">Smart </span> mode on the bottom bar to apply a new size to photos based on their Portrait or Landscape orientation.</li>
+                </ol>
+                <img src="../images/features/photo-size-edit3@2x.png" style="aspect-ratio: 780 / 1110;"/>
+            </div>
+        </section><section id="addborder">
+            <h2>Add border to photos</h2>
+            <p>You can add a colored border to selected photos, all photos on a page, or all photos in the project.</p>
+            <div class="contentgroup">
+                <ol class="steps">
+                    <li>Go to the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-border">Border </span> button on the bottom bar.</li>
+                    <li>Select the border position: Inside, Center, or Outside.</li>
+                    <li>Select a color from the palette.</li>
+                    <li>Tap again the selected color to pick/change its RGB value.</li>
+                    <li>Long press any color in the palette to pick/change its value, or reset to default.</li>
+                    <li>Adjust the border thickness using the slider.</li>
+                    <li>Enter the border thickness into the text field using the keyboard.</li>
+                    <li>Tap on the drop-down menu button at the top of the border popup to change editing scope to "All photos" or "Pages photos".</li>
+                </ol>
+                <img src="../images/features/photo-border@2x.jpg" style="aspect-ratio: 780 / 1110;"/>
+            </div>
+        </section><section id="editphoto">
+            <h2>Edit photo individually</h2>
+            <p>You can edit any single photo by double-tapping it on the page or selecting it and then choosing the <span class="inline-action inline-image-crop">Edit Photo </span> option from the editing popup window.</p>
+            <div class="contentgroup">
+                <h3>Edit selected photo</h3>
+                <ol class="steps">
+                    <li>Use standard pinch and pan gestures to scale and position the photo inside the crop frame.</li>
+                    <li>Move the bottom slider to rotate the photo in the range of 0 - 360 degrees.</li>
+                    <li>Tap the <span class="inline-action inline-image-fliph">Flip </span> button on the top bar to flip the photo horizontally.</li>
+                    <li>Tap the <span class="inline-action inline-image-flipv">Flip </span> button on the top bar to flip the photo vertically.</li>
+                    <li>Use the <span class="inline-action inline-image-dots"></span> menu on the top bar to reset the photo to its initial state.</li>
+                </ol>
+                <img src="../images/features/edit-photo@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
+            </div>
+            <div class="contentgroup">
+                <h3>Complete photo editing</h3>
+                <ol class="steps">
+                    <li>Tap the 'Done' button on the top bar to apply all the editing changes.</li>
+                    <li>Tap the 'Cancel' button on the top bar to cancel all the editing changes.</li>
+                </ol>
+            </div>
+        </section><section id="collage">
+            <h2>Create stunning collages</h2>
+            <p>The app allows you to use Collage layout mode to create beautiful compositions from your photos. When this mode is active, the app editing interface receives some minor updates. To learn more about page layout modes, visit the <a href="#layoutmode" alt="Choose layout mode">Choose layout mode</a> section.</p>
+            <div class="contentgroup">
+                <h3>Select collage template</h3>
+                <ol class="steps">
+                    <li>Open the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-layout">Page Layout </span> button on the page bar.</li>
+                    <li>Tap the "Collage" layout mode above the page.</li>
+                    <li>Select either the <span class="inline-action inline-image-collage-template">Template </span> or <span class="inline-action inline-image-collage-table">Table </span> collage type on the bottom bar of the popup window.</li>
+                    <li>Choose the most appropriate template from the list or create a table of the preferred size.</li>
+                </ol>
+                <img src="../images/features/collage-type@2x.png" style="aspect-ratio: 6 / 8;"/>
+            </div>
+            <div class="contentgroup" id="editcollage">
+                <h3>Edit current collage page</h3>
+                <p>Blank collage cells, called "placeholders", are an essential and irremovable part of the collage layout structure. They can also be the target of some editing operations.</p>
+                <ol class="steps">
+                    <li>Tap or long press any photo/placeholder to select it.</li>
+                    <li>Move the selected photo/placeholder onto another photo/placeholder to swap them.</li>
+                    <li>Move marker on the edge of each photo/placeholder to resize collage segment.</li>
+                    <li>Move any marker to the edge of another segment to merge photos/placeholders.</li>
+                    <li>Tap the <span class="inline-action inline-image-splitv">Split </span> button to divide the selected photo/placeholder into two equal vertical parts.</li>
+                    <li>Tap the <span class="inline-action inline-image-splith">Split </span> button to divide the selected photo/placeholder into two equal horizontal parts.</li>
+                    <li>Tap the <span class="inline-action inline-image-rotate">Rotate </span> button to rotate the selected photo clockwise by 90°.</li>
+                    <li>Tap the <span class="inline-action inline-image-collage-unbind">Unbind </span> button to detach selected collage cell from others during editing.</li>
+                    <li>Tap the "N Selected" button in the middle of the selection bar to open the editing popup list.</li>
+                    <li>Use buttons from the editing popup list to edit, crop, flip, delete the selected photo.</li>
+                </ol>
+                <img src="../images/features/edit-collage@2x.jpg" style="aspect-ratio: 780 / 1688;"/>
+            </div>
+            <div class="contentgroup">
+                <h3>Update size and position of selected photo or placeholder.</h3>
+                <p>This editing operation for Collage is very similar to the one for the Normal page, described in <a href="#editphotosize" alt="Update selected photos size and position">this section</a>.</p>
+            </div>
+        </section><section id="export">
+            <h2>Print and Share your work</h2>
+            <p>You can print your document using standard printing menu or share it in PDF, JPEG, and TIFF formats. To print directly from the app your printer should support AirPrint technology. The app uses the "Best" image quality when preparing the project for printing.</p>
+            <div class="contentgroup">
+                <h3>Print your work</h3>
+                <ol class="steps">
+                    <li>Open the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-print">Print </span> button on the top bar.</li>
+                    <li>Make sure all required settings are properly configured on that standard screen, including paper size, quality, color, and other presets.</li>
+                    <li>Tap the "Print" button in the top right corner of the popup window.</li>
+                </ol>
+                <img src="../images/features/print@2x.png" style="aspect-ratio: 780 / 1176;"/>
+            </div>
+            <div class="contentgroup">
+                <h3>Share as PDF</h3>
+                <ol class="steps">
+                    <li>Go to the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-share">Share </span> button on the top bar.</li>
+                    <li>Enter a filename for your PDF document.</li>
+                    <li>Choose the image quality between Poor, Good, High, and Best.</li>
+                    <li>Tap the "Export" button at the bottom of the popup.</li>
+                    <li>Choose a destination to share.</li>
+                </ol>
+                <img src="../images/features/share@2x.jpg" style="aspect-ratio: 780 / 1176;"/>
+            </div>
+            <div class="contentgroup">
+                <h3>Share as JPEG, TIFF, PNG, HEIC</h3>
+                <ol class="steps">
+                    <li>Go to the main screen.</li>
+                    <li>Tap the <span class="inline-action inline-image-share">Share </span> button on the top bar.</li>
+                    <li>Tap the drop-down menu button at the top of the popup and choose either JPEG, TIFF, PNG or HEIC format.</li>
+                    <li>Enter a filename for your image files. This name will also be used to create an album when saving to the Photo Library.</li>
+                    <li>Specify the compression for JPEG and HEIC using the slider or the text field.</li>
+                    <li>Tap the "Export" button at the bottom of the popup.</li>
+                    <li>Choose a destination to share.</li>
+                </ol>
+                <img src="../images/features/share2@2x.jpg" style="aspect-ratio: 780 / 1176;"/>
+            </div>
+        </section><section>
+            <p>
+                To learn more about all the app features please visit our <a href="/features/" alt="Features Page">Features Page</a>.
+            </p>
+        </section>
+    </div>
+</main>
+{% include footer.html %}
+</body>
+</html>
