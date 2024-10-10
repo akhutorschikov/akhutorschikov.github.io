@@ -1,9 +1,3 @@
-title: Picoala Home
-description: Picoala Home
+domain: akhutorschikov.github.io
+url: https://akhutorschikov.github.io
 baseurl: ""
-url: "https://www.picoala.com"
-
-# Optional settings
-theme: minima
-markdown: kramdown
-permalink: pretty
