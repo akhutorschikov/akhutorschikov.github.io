@@ -32,6 +32,9 @@
 .inline-image-border:after {
     background-image: url("../images/inline/inline-border@2x.png");
 }
+.inline-image-corner:after {
+    background-image: url("../images/inline/inline-corner@2x.png");
+}
 .inline-image-desqueeze:after {
     background-image: url("../images/inline/inline-desqueeze@2x.png");
 }
