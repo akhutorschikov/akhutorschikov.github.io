@@ -30,9 +30,9 @@
 }
 
 #topbar > div > a > img {
-    width: 134px;
-    margin-top: -3%;
-    margin-left: -1%;
+    width: 150px;
+    margin-top: 5%;
+    margin-left: 1%;
 }
 
 #navmenu > ul {
@@ -69,7 +69,7 @@
         margin-top: calc(3.6101vw + 32.35px);
     }
     #topbar > div > a > img {
-        width: calc(2.8881vw + 89.88px);
+        width: calc(3.25vw + 107.11px);
     }
 }
 
@@ -90,12 +90,12 @@
         margin-top: 60px;
     }
     #topbar > div > a > img {
-        width: 116px;
+        width: 132px;
     }
 }
 
 
-@media (width < 600px) {
+@media (width < 650px) {
     #navmenu {
         display: none;
         position: absolute;

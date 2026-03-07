@@ -77,6 +77,10 @@ nav#topbar.home-sticky {
     max-width: 600px;
 }
 
+#header > div.main > div.left h1 > span {
+    letter-spacing: -0.02em;
+}
+
 #header > div.main > div.left p {
     font-weight: 600;
     font-size: 26px;
